@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webcentric</title>
+    <meta name="keyword" content="Python,C#,JavaScript">
+    <meta name="description" content="Webcentric">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="main.css">
+    <!-- Tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="tablet.css">
+    <!-- Mobile -->
+    <link rel="stylesheet" media="(max-width:500px)" href="mobile.css">
+</head>
+<body>
+    <header class="bg-dark-purple">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading-small">Webcentric</h1>
+                <ul>
+                   <li><a href="#home">Home Page</a></li>
+                   <li><a href="#training">Trainings</a></li>
+                   <li><a href="#courses">Courses</a></li>
+                   <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home">
+    <img src="https://i0.wp.com/inspirelle.com/wp-content/uploads/2015/10/Woman-on-computer.jpg?fit=640%2C446&ssl=1" alt="Web development">
+
+    <div class="name text-center">
+        <h2 class="heading-big">Quliyeva Esmira</h2>
+        <p>Web developer | Founder of Webcentric</p>
+    </div>
+    <div class="btn btn-primary">
+    <a href="#courses">Go to courses</a>
+    </div>
+    </section>
+
+    <section id="training" class="bg-dark-purple">
+     
+        <h3 class="text-center heading-medium">Trainings</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa-solid fa-code"></i>
+                <h3>Front-end </h3>
+                <p>
+                    Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or Web Application so that a user can see and interact with them directly.
+                </p>
+            </article>
+            <article class="item">
+                <i class="fa-solid fa-code"></i>
+                <h3>Back-end</h3>
+                <p>
+                    Back-end developers are the experts who build and maintain the mechanisms that process data and perform actions on websites. Unlike front-end developers, who control everything you can see on a website, back-end developers are involved in data storage, security, and other server-side functions that you cannot see.
+                </p>
+            </article>
+            <article class="item">
+                <i class="fa-solid fa-code"></i>
+                <h3>Full-stack</h3>
+                <p>
+                    A full stack web developer is a person who can develop both client and server software. In addition to mastering HTML and CSS, he/she also knows how to: Program a browser (like using JavaScript, jQuery, Angular, or Vue) Program a server (like using PHP, ASP, Python, or Node)
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section id="courses">
+      <h3 class="text-center heading-medium">Courses</h3>
+
+      <div class="container">
+        <div class="courses">
+           <!-- Course 1 -->
+            <div class="course">
+                <div class="course-image">
+                <img src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2019/01/11/776852-626327-python.jpg" alt="Python">
+                    <span>90% Discount</span>
+                </div>
+                <div class="course-info">
+                  <div class="title">Complete Python developer course</div>
+                  <div class="description">(40+ Hours) Python | Programming From Scratch to Advanced Level</div>
+                  <div class="instructor">Esmira Quliyeva | Web Developer</div>
+                  <div class="rating">4.7 | (19990 Voting)</div>
+                </div>
+            </div>
+            <!-- Course 2 -->
+            <div class="course">
+                <div class="course-image">
+                <img src="http://computerjee.com/wp-content/uploads/2020/05/C.jpg" alt="C#">
+                 <span>90% Discount</span>
+                </div>
+                <div class="course-info">
+                  <div class="title">Complete C# developer course</div>
+                  <div class="description">(50+ Hours) C# | Programming From Scratch to Advanced Level</div>
+                  <div class="instructor">Esmira Quliyeva | Web Developer</div>
+                  <div class="rating">4.6 | (13200 Voting)</div>
+                </div>
+            </div>
+            <!-- Course 3 -->
+            <div class="course">
+                <div class="course-image">
+                <img src="http://alfa-cyber.com/wp-content/uploads/2021/06/What-is-JavaScript.jpg" alt="JavaScript">
+                 <span>90% Discount</span>
+                </div>
+                <div class="course-info">
+                  <div class="title">Complete Modern JavaScript course</div>
+                  <div class="description">(45+ Hours) C# | Programming From Scratch to Advanced Level</div>
+                  <div class="instructor">Esmira Quliyeva | Web Developer</div>
+                  <div class="rating">4.8 | (9870 Voting)</div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact" class="bg-dark-purple">
+
+    <div class="contact-form">
+        <form>
+            <h4 class="text-center heading-medium">Contact us</h4>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="text" class="form-control" name="email" id="email" placeholder="E-mail">
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+               <textarea name="message" id="message" class="form-control" rows="5" placeholder="Your message..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-block">Send</button>
+        </form>
+
+        <ul>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+
+    </div>
+
+    </footer>
+</body>
+</html>
